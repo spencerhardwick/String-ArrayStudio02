@@ -6,7 +6,18 @@ let protoArray4 = "Comma-spaces, might, require, typing, caution";
 strings = [protoArray1, protoArray2, protoArray3, protoArray4];
 
 //a) Use the 'includes' method to check to see if the words in each string are separated by commas (,), semicolons (;) or just spaces.
-
+console.log(protoArray1.includes(',')), 
+  console.log(protoArray2.includes(',')), 
+    console.log(protoArray3.includes(',')), 
+      console.log(protoArray4.includes(','));
+console.log(protoArray1.includes(';')), 
+  console.log(protoArray2.includes(';')), 
+    console.log(protoArray3.includes(';')), 
+      console.log(protoArray4.includes(';'));
+console.log(protoArray1.includes(' ')), 
+  console.log(protoArray2.includes(' ')), 
+    console.log(protoArray3.includes(' ')), 
+      console.log(protoArray4.includes(' '));
 
 //b) If the string uses commas to separate the words, split it into an array, reverse the entries, and then join the array into a new comma separated string.
 
